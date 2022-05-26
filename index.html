@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Gama Academy </title>
+</head>
+<body>
+    <div>
+    <h1 id="titulo">Cadastro de Usuarios</h1>
+    <p id="subtitulo"> Complete suas Informaçoes</p>
+    <br>
+
+    </div>
+    
+
+    <div>
+    <form id="cadastro"method="post">
+        <label for="Nome"><strong>Nome</strong></label>
+        <input type="text" id="nome" name="Nome" placeholder="Seu Nome" required>
+
+        <label for="Sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" id="Sobrenome" nome="Sobrenome" placeholder="Sobrenome">
+        
+        <label for="país"><strong>País</strong></label>
+        <select id="País" name="País">
+            <option value="Brasil">Brasil</option>
+            <option value="EUA">EUA</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Venezuela">Venezuela</option>            
+        </select>                
+    </form>
+    </div>
+    <div class="campo">
+        <label><strong>Escolha a opcao em que voce Desenvolve</strong></label>
+        <label>
+            <input type="radio" name="DevWeb" value="FrontEnd" checked>Front-End
+        </label>
+        <label>
+            <input type="radio" name="DevWeb" value="BackEnd" checked>Backend
+        </label>
+        <label>
+            <input type="radio" name="DEvWeb" value="FullStack" checked>FullStack
+        </label>
+    </div>
+    <div class="campo">
+        <label for="Experiencia">Experiencia</label>
+
+
+
+    </div>
+    
+</body>
+</html>
